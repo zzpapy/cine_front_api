@@ -11,7 +11,6 @@ export class SeanceDetail extends React.Component {
 render() {
     return (
         <Link to={ "/seance/" + this.props.seance["id"] }>
-          {console.log(this.props.seance["id"])}
             <div className="articleShortContainer">
                 <div className="articleShortNameContainer">
                   <p>{ this.props.seance["salle"].nom }</p>

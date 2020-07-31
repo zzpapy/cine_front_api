@@ -42,9 +42,9 @@ export class Create extends React.Component {
       return (
         <div>
             Titre : <input onChange={this.handleChange} id="titre" type="text" placeholder="titre"  />
-          durre: <input onChange={this.handleChangeDuree} id="duree" type="number" placeholder="durée (min)"  />
-          Synopsis:<textarea onChange={this.handleChangeSyn} id="synopsis" placeholder="synopsis" ></textarea>
-          <button onClick={this.create}>test</button>
+            durre: <input onChange={this.handleChangeDuree} id="duree" type="number" placeholder="durée (min)"  />
+            Synopsis:<textarea onChange={this.handleChangeSyn} id="synopsis" placeholder="synopsis" ></textarea>
+            <button onClick={this.create}>test</button>
         </div>
       
       )
