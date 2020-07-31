@@ -39,6 +39,7 @@ export function getSeances () {
         method: 'POST',
         body: JSON.stringify(data),
         headers: {
+            // 'Authorization' : 'Bearer: '+
             'Content-Type': 'application/json'
         }
         })
